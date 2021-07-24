@@ -59,7 +59,7 @@ section#sobre-mim{
     display: flex; 
     justify-content: center; 
     align-items: center;   
-    padding: 4rem;
+    padding: 2rem;
     background-color: rgba(148, 105, 83, 0.856);
 } 
 section#sobre-mim div img{
@@ -67,10 +67,10 @@ section#sobre-mim div img{
     border-radius: 50%; 
 }
 section#sobre-mim div p{
-    font-size: 1.8vw;
+    font-size: 1.2vw;
     text-align: justify;
     color: #fff;
-    line-height: 4rem;
+    line-height: 3rem;
 }
 section#projetos{ 
     display: flex; 
@@ -284,7 +284,22 @@ section#contatos div#carregamento div#loader{
         transform: rotate(360deg);
     }
 }
-
+footer{
+    background-color: rgb(29, 29, 41);
+}
+footer p {
+    min-height: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ccc;
+}
+  
+footer hr {
+    width: 60%;
+    margin: auto;
+    border: 0.2px solid rgba(75, 75, 88, 0.822);
+}
 
 
 /* send */
