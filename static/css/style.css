@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inconsolata', monospace;
+}
+html{
+    scroll-behavior:smooth;
+}
+ /* comentario */
+ 
+nav{
+    background-color: rgba(29, 29, 41, 0.548);
+    padding: 1rem;
+    font-weight: 400;
+    font-size: 1.8vw;
+    position: fixed; 
+    width: 100%;
+}
+
+nav ul{
+    list-style: none;
+    display: flex; 
+    justify-content: center;
+}
+nav ul li{
+    padding: 1rem; 
+    margin-right: 5vw;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ccc;
+}
+header{
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    align-items: center;
+    background-color: rgb(29, 29, 41);
+}
+header div#img-rocket {
+    display: flex;
+    justify-content: center;    
+}
+header div p{
+    font-size: 2vw; 
+    font-weight: 400;
+    color: #ccc;       
+}
+header div span{
+    font-size: 1.2vw;
+    font-weight: 400; 
+    color: #ccc;     
+}
+header div#img-rocket img{
+    width:  60%;
+}
+section#sobre-mim{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;   
+    padding: 4rem;
+    background-color: rgba(148, 105, 83, 0.856);
+} 
+section#sobre-mim div img{
+    width: 60%;
+    border-radius: 50%; 
+}
+section#sobre-mim div p{
+    font-size: 1.8vw;
+    text-align: justify;
+    color: #fff;
+    line-height: 4rem;
+}
+section#projetos{ 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    background-color: rgb(29, 29, 41);
+    color: #ccc;
+}
+
+section#projetos div img{
+    width: 100%;
+    display: block; 
+    margin: auto;
+}
+section#projetos div h2{
+    text-align: center;
+    padding: 1rem;
+}
+section#projetos div p{
+    text-align: justify;
+}
+section#projetos div{
+    padding: 2rem;
+}
+section#projetos div button{
+    border: 1px solid rgba(29, 29, 41, 0.767);
+    background-color: rgba(75, 75, 88, 0.822);
+    color:#ccc;
+    padding: 1rem;
+    font-size: 1.2vw;
+    font-weight: 400;
+    border-radius: 5rem;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: 2s ease-out;
+}
+section#projetos div button:hover{
+    background-color:  rgb(165, 148, 180);
+    color: rgba(7, 7, 7, 0.767);
+    transform: scale(1.2);
+}
+section#habilidades{
+    padding: 3rem 10rem 3rem 10rem;
+    background-color: rgba(148, 105, 83, 0.856);
+    color: #ccc;
+}
+section#habilidades h2{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+section#habilidades p{
+    padding: 1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+section#habilidades div{
+    display: flex;
+    border: 1px solid rgb(29, 29, 41);
+    border-radius: 1rem;
+}
+section#habilidades div span#python{
+    background-color: rgb(29, 29, 41);
+    color: #ccc;
+    text-align: center;
+    padding: .3rem;
+    border-radius: 1rem;
+    width: 70%;
+ }
+ 
+ section#habilidades div span#html{
+    background-color: rgb(29, 29, 41);
+    color: #ccc;
+    text-align: center;
+    padding: .3rem;
+    border-radius: 1rem;
+    width: 20%;
+ }
+ 
+ section#habilidades div span#css{
+    background-color: rgb(29, 29, 41);
+    color: #ccc;
+    text-align: center;
+    padding: .3rem;
+    border-radius: 1rem;
+    width: 10%;
+ }
+ section#contatos{
+    padding:  3rem 10rem 3rem 10rem; 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    background-color: rgb(29, 29, 41);
+    color:#ccc;
+}
+section#contatos div#redes{
+    width: 100%; 
+}
+
+section#contatos div#redes h3{
+    text-align: center; 
+    font-size: 2.5rem; 
+    margin-bottom: 2rem; 
+}
+section#contatos div#redes div#icons{
+    display: flex;
+    justify-content: center;
+}
+
+section#contatos div#redes div#icons a{
+    text-decoration: none;
+    color:#ccc;
+    font-size: 4rem;
+    padding: 2rem;
+    transition: all .4s ease-out; 
+
+}
+section#contatos div#redes div#icons a:hover{
+    color:rgba(148, 105, 83, 0.856);
+}
+section#contatos div#redes div#icons a i{
+    transition: all .4s ease-out;
+    
+}
+
+section#contatos div#redes div#icons a i:hover{ 
+    transform: scale(1.2);
+
+}
+section#contatos div#form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+section#contatos div#form h3{
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+section#contatos div#form form{
+    width: 50%;
+}
+section#contatos div#form form input, textarea{ 
+    width: 100%;
+    padding: 1.2rem;
+    font-size: 1.2rem;
+    border: 2px solid #ccc;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    outline: none;
+}
+section#contatos div#form form label{
+    font-size: 1.2rem;
+}
+
+section#contatos div#form form button{
+    border: 1px solid rgba(29, 29, 41, 0.767);
+    background-color: rgba(75, 75, 88, 0.822);
+    color:#ccc;
+    padding: 1rem;
+    font-size: 1.2vw;
+    font-weight: 400;
+    border-radius: 5rem;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: 2s ease-out;
+    width: 40%;
+}
+section#contatos div#form form button:hover{
+    background-color: rgb(165, 148, 180);
+    color: rgba(7, 7, 7, 0.767);
+    transform: scale(1.2);
+}
+section#contatos div#carregamento{
+    display: none; 
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+section#contatos div#carregamento p{
+    color: #ccc;
+    font-weight: 400;
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+}
+  
+section#contatos div#carregamento div#loader{
+    border: 13px solid rgb(29, 29, 41);
+    border-radius: 50%;
+    border-top: 13px solid rgba(75, 75, 88, 0.822);
+    border-bottom: 13px solid rgba(75, 75, 88, 0.822);
+    width: 80px;
+    height: 80px;
+    animation: spin 2s linear infinite;
+}
+
+
+@keyframes spin {
+    0% { 
+        transform: rotate(0deg); 
+    } 
+    100% { 
+        transform: rotate(360deg);
+    }
+}
+
+
+
+/* send */
+section#success{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgb(29, 29, 41);
+}
+  
+section#success div#card{
+    background-color:  rgb(165, 148, 180);
+    text-align: center;
+    padding: 4rem;
+    border-radius: 2rem;
+    color: #fff;
+    width: 40%;
+}
+
+section#success div#card h1{
+    margin: 2rem 0rem;
+}
+
+section#success div#card i{
+    font-size: 5rem;
+}
+
+section#success div#card h3{
+    margin-bottom: 2rem;
+}
+
+section#success div#card p{
+    margin-bottom: 3rem;
+    width: 100%;
+    word-break: break-word;
+}
+
+section#success div#card a{
+    text-decoration: none;
+    padding: 1rem;
+    border: 1px solid rgba(148, 105, 83, 0.856);
+    color:#fff;
+    border-radius: .4rem;
+    transition: all .4s ease-out;
+}
+
+section#success div#card a:hover{
+    background-color: rgb(29, 29, 41);
+    color: #fff;
+}
+

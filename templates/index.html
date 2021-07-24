@@ -1,0 +1,143 @@
+<!DOCTYPE html> 
+<html lang="pt-br"> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portifólio</title> 
+       
+        <link rel="stylesheet" href="../static/css/style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+
+    <body>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre-mim">Sobre Mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contatos">Contatos</a></li>
+            </ul>
+        </nav>
+
+        <header id="inicio">
+            <div>
+                <p>“Apreciar e compreender a vida em cada instante é uma arte a ser praticada.”</p>
+                <span>Monja Coen</span>
+                
+            </div>
+            <div id="img-rocket"> 
+                <img src="../static/img/Creative.png" width=100% alt="">
+            </div>
+        </header>
+        <section id="sobre-mim">
+            <div>
+                <img src="../static/img/eu.png" alt="Foto Livia">
+            </div>
+            <div>
+                <p>
+                    Acredito que com esforço direcionado, alcançamos todos os resultados almejados. Desbravar novos caminhos faz parte da minha história. Com educação, gentileza e curiosidade podemos mudar o mundo.  
+                </p>
+                <p>
+                    E você, está preparado? 
+                </p>
+            </div>
+        </section>
+        <section id="projetos">
+            <div>
+                <img src="../static/img/chapolin.png" alt="">
+                <h2>Projeto 1</h2>
+                <p>Projeto final do módulo de "Lógica de Programação". Jogo de ficção interativa - "O Gafanhoto Vermelho"</p>
+                <button onclick="clickproj1()">Veja mais</button>
+            </div>
+            <div>
+                <img src="../static/img/backgroundGarfield-removebg-preview.png" alt="">
+                <h2>Projeto 2</h2>
+                <p>Desenvolvimento da primeira página estática (projeto em HTML 5, CSS 3 e JavaScript). Jogo do humor - "Garfield" </p>
+                <button onclick="clickproj2()">Veja mais</button>
+            </div>
+            <div>
+                <img src="../static/img/folder.png" alt="">
+                <h2>Projeto 3</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa dolorem nemo sunt neque recusandae, animi accusantium dolorum numquam laudantium? Blanditiis laboriosam quod assumenda quaerat? Non quae saepe itaque pariatur nulla.</p>
+                <button>Veja mais</button>
+            </div>
+            <div>
+                <img src="../static/img/folder.png" alt="">
+                <h2>Projeto 4</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores quod perferendis, fugiat nobis amet similique quae fugit? Aperiam reiciendis magni sed nobis quasi, illo porro, autem vero quis sint amet.</p>
+                <button>Veja mais</button>
+            </div>
+
+        </section>
+        <section id="habilidades">
+            <h2>Habilidades Técnicas</h2>
+            <p>Python</p>
+            <div>
+                <span id="python">70%</span>
+            </div>
+            <p>HTML 5</p>
+            <div>
+                <span id="html">20%</span>
+            </div>
+            <p>CSS 3</p>
+            <div>
+                <span id="css">10%</span>
+            </div>
+
+        </section>
+
+
+        <section id="contatos">
+            <div id="redes">
+                <h3>Se conecte comigo</h3>
+
+                <div id="icons">
+                    <a href="https://www.linkedin.com/in/liviaribeiros" target="_blank">
+                        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                    </a> 
+                    <a href="https://github.com/ribeirolivia" target="_blank">
+                        <i class="fa fa-github" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.instagram.com/lia.ribeiros" target="_blank">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a>
+                </div>     
+            </div>
+            <div id="form">
+        
+                <h3>Mande uma mensagem</h3>
+                <form action="/send" method="POST">
+                    <label for="nome">Nome</label>
+                    <input type="text" placeholder="Como gostaria de ser chamado?" id="nome" name="nome" type="text">
+
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Digite seu email" id="email" name="email" type="text">
+
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem" ></textarea>
+
+                    <button type="submit" id="enviar">Enviar</button>
+
+                </form>
+
+            </div>
+
+            <div id="carregamento">
+                <p>Enviando mensagem</p>
+                <div id="loader"></div>
+            </div>
+
+        </section>
+        
+        <footer>
+            <!-- completar -->
+        </footer>
+
+
+        <script src="../static/js/script.js"></script>
+    </body>
+
+</html>
+
