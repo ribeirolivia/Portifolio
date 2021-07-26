@@ -13,7 +13,9 @@ function clickproj1(){
 function clickproj2(){
     window.open('https://ribeirolivia.github.io/Projeto1/')
 }
-
+function clickproj3(){
+    window.open('https://github.com/ribeirolivia/Plannerdiario')
+}
 
 inputNome.addEventListener('keydown', () => {
     if(inputNome.value.length < 2){      
