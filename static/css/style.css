@@ -34,7 +34,7 @@ nav ul li a{
 header{
     display: flex;
     justify-content: center;
-    padding: 3rem;
+    padding: 2rem;
     align-items: center;
     background-color: rgb(29, 29, 41);
 }
@@ -43,7 +43,7 @@ header div#img-rocket {
     justify-content: center;    
 }
 header div p{
-    font-size: 2vw; 
+    font-size: 1.8vw; 
     font-weight: 400;
     color: #ccc;       
 }
@@ -59,18 +59,18 @@ section#sobre-mim{
     display: flex; 
     justify-content: center; 
     align-items: center;   
-    padding: 2rem;
+    padding: 5rem;
     background-color: rgba(148, 105, 83, 0.856);
 } 
 section#sobre-mim div img{
-    width: 60%;
+    width: 70%;
     border-radius: 50%; 
 }
 section#sobre-mim div p{
-    font-size: 1.2vw;
+    font-size: 1.4vw;
     text-align: justify;
     color: #fff;
-    line-height: 3rem;
+    line-height: 4.2rem;
 }
 section#projetos{ 
     display: flex; 
@@ -89,9 +89,11 @@ section#projetos div img{
 section#projetos div h2{
     text-align: center;
     padding: 1rem;
+    font-size: 1.4vw;
 }
 section#projetos div p{
     text-align: justify;
+    font-size: 1vw;
 }
 section#projetos div{
     padding: 2rem;
@@ -150,7 +152,7 @@ section#habilidades div span#python{
     text-align: center;
     padding: .3rem;
     border-radius: 1rem;
-    width: 20%;
+    width: 40%;
  }
  
  section#habilidades div span#css{
@@ -159,8 +161,25 @@ section#habilidades div span#python{
     text-align: center;
     padding: .3rem;
     border-radius: 1rem;
+    width: 35%;
+ }
+ section#habilidades div span#JavaScript{
+    background-color: rgb(29, 29, 41);
+    color: #ccc;
+    text-align: center;
+    padding: .3rem;
+    border-radius: 1rem;
+    width: 20%;
+ }
+ section#habilidades div span#Flask{
+    background-color: rgb(29, 29, 41);
+    color: #ccc;
+    text-align: center;
+    padding: .3rem;
+    border-radius: 1rem;
     width: 10%;
  }
+
  section#contatos{
     padding:  3rem 10rem 3rem 10rem; 
     display: flex;
@@ -220,14 +239,14 @@ section#contatos div#form form{
 section#contatos div#form form input, textarea{ 
     width: 100%;
     padding: 1.2rem;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     border: 2px solid #ccc;
     margin-top: 1rem;
     margin-bottom: 1rem;
     outline: none;
 }
 section#contatos div#form form label{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 section#contatos div#form form button{
@@ -235,7 +254,7 @@ section#contatos div#form form button{
     background-color: rgba(75, 75, 88, 0.822);
     color:#ccc;
     padding: 1rem;
-    font-size: 1.2vw;
+    font-size: 1.5vw;
     font-weight: 400;
     border-radius: 5rem;
     display: block;
@@ -266,10 +285,10 @@ section#contatos div#carregamento p{
 }
   
 section#contatos div#carregamento div#loader{
-    border: 13px solid rgb(29, 29, 41);
+    border: 10px solid rgb(29, 29, 41);
     border-radius: 50%;
-    border-top: 13px solid rgba(75, 75, 88, 0.822);
-    border-bottom: 13px solid rgba(75, 75, 88, 0.822);
+    border-top: 10px solid rgba(75, 75, 88, 0.822);
+    border-bottom: 10px solid rgba(75, 75, 88, 0.822);
     width: 80px;
     height: 80px;
     animation: spin 2s linear infinite;
